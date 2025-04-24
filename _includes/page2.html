@@ -3,8 +3,8 @@
       <h3>Latest Blog</h3>
       {% for page in site.posts limit:1 %}
       <div class="latest-entry">
-        <img src="/img/{{ page.image }}" alt="{{ page.title }}">
-        <a href="{{page.url}}"><p class="Solo">{{ page.title }}</p> </a>
+        <img src="{{site.baseurl}}/img/{{ page.image }}" alt="{{ page.title }}">
+        <a href="{{site.baseurl}}{{page.url}}"><p class="Solo">{{ page.title }}</p> </a>
         <p class="TripP">{{ page.excerpt }}</p>
       </div>
       {% endfor %}
