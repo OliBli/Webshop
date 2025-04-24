@@ -35,10 +35,15 @@ plugins:
   - jekyll-feed
 
 collections:
-  - advice
-  - destination
-  - explore
-  - posts
+  advice:
+    output: true
+  destination:
+    output: true
+  explore:
+    output: true
+  posts:
+    output: true
+
 
 
 # Exclude from processing.
