@@ -1,0 +1,349 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 44px;
+    color: #333;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.Salty{
+    font-size: 24px;
+    color: #333;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Icons {
+    display: flex;
+    gap: 10px;
+}
+
+.Icons a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.Icons img {
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    z-index: 2;
+}
+.tower{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.tower img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.NewB {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px;
+    background-color: #f0fffe;
+}
+
+h3{
+    font-size:35px; 
+    z-index: 2;
+    position: relative;
+    margin-bottom: -45px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.latest-blog {
+flex: 2;
+max-width: 500px; 
+padding-left: 100px;
+}
+
+.latest-entry {
+text-align: left;
+}
+
+.latest-entry img {
+width: 100%;
+max-width: 360px; 
+height: auto;
+border-radius: 12px;
+display: block;
+margin-bottom: 12px;
+}
+
+
+.latest-blog a{
+    text-decoration: none;
+}
+.Solo {
+font-weight: bold;
+font-size: 24px;
+margin-top: 0;
+margin-bottom: 8px;
+color: black;
+}
+
+
+.TripP {
+color: #555;
+font-size: 16px;
+margin: 0;
+}
+
+.recent-blogs {
+flex: 1;
+}
+
+.recent-entry {
+display: flex;
+gap: 16px;
+margin-bottom: 10px;
+align-items: flex-start;
+padding-top: 15px;
+}
+
+.recent-entry a{
+    font-size: 14px;
+    color: #224353;
+    text-decoration: none;
+}
+
+.recent-entry img {
+width: 100px;
+height: 80px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+h6{
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+
+.TA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 20px;
+}
+
+.ADD {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ADD img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.ADP {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+.ADT{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    width: 40%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 32px;
+    background-color: yellow;
+    border-radius: 14px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+.ExStyle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.Explore{
+    position: relative;
+    flex: 0 0 33.3333%;
+}
+
+.ExImg{
+    width: 100%;
+    height: 700px;
+    display: block;
+}
+
+.ExP{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    background-color: rgba(255, 255, 0, 0.84);
+    border: 2px solid black;
+    padding:12px 75px ;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: black;
+    z-index: 2;
+    
+}
+
+.destinations {
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.destination-scroll {
+display: flex;
+overflow-x: auto;
+gap: 16px;
+padding-bottom: 10px;
+scroll-behavior: smooth;
+}
+
+
+.destination-scroll::-webkit-scrollbar {
+height: 10px;
+}
+.destination-scroll::-webkit-scrollbar-thumb {
+background: #ccc;
+border-radius: 5px;
+}
+
+
+.destination-card {
+position: relative;
+min-width: 250px; 
+height: 350px;     
+flex: 0 0 auto;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destination-card img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+
+.destination-text {
+position: absolute;
+bottom: 0;
+width: 100%;
+background-color: rgba(255, 223, 0, 0.85); /* gul bakgrund */
+color: black;
+padding: 12px;
+box-sizing: border-box;
+}
+
+.destination-text .title {
+font-weight: bold;
+font-size: 16px;
+margin-bottom: 4px;
+text-decoration: none;
+color: black;
+}
+
+.destination-text .excerpt {
+font-size: 14px;
+margin: 0;
+text-decoration: none;
+color: black;
+}

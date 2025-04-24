@@ -1,0 +1,11 @@
+<h6>Travel Advice</h6>
+<section class="TA">
+    {% for page in site.advice %}
+    <div class="ADD">
+        <a href="{{page.url}}"><img src="/img/{{page.image}}"> </a>
+        <a href="{{page.url}}"><p class="ADT">{{page.title}}</p></a>
+        <p class="ADP"> {{page.excerpt}}</p>
+    </div>
+    {% endfor %}
+    <h5>CHECK ALL TRAVEL ADVICE</h5>
+</section>

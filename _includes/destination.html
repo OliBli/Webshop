@@ -1,0 +1,15 @@
+
+<h2>Destinations</h2>
+<section class="destinations">
+    <div class="destination-scroll">
+        {% for page in site.destination %}
+        <div class="destination-card">
+          <img src="/img/{{page.image}}" alt="{{page.title}}">
+          <div class="destination-text">
+            <a class="title" href="{{page.url}}"><p>{{page.title}}</p></a>
+            <a class="excerpt" href="{{page.url}}"><p> {{page.excerpt}}</p></a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+</section>
