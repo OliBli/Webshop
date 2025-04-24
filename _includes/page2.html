@@ -15,11 +15,11 @@
       <ul>
         {% for page in site.posts offset:1 limit:3 %}
         <li class="recent-entry">
-          <img src="/img/{{ page.image }}" alt="{{ page.title }}">
+          <img src="{{site.baseurl}}/img/{{ page.image }}" alt="{{ page.title }}">
           <div>
             <strong>{{ page.title }}</strong>
             <p>{{ page.excerpt }}</p>
-            <a href="{{ page.url }}">Read more</a>
+            <a href="{{site.baseurl}}{{ page.url }}">Read more</a>
           </div>
         </li>
         {% endfor %}

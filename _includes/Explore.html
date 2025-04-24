@@ -2,8 +2,8 @@
 <section class="ExStyle">
     {% for page in site.explore %}
        <div class="Explore">     
-            <img class="ExImg" src="/img/{{page.image}}" >
-            <a href="{{page.url}}"><p class="ExP">{{page.title}}</p></a>
+            <img class="ExImg" src="{{site.baseurl}}/img/{{page.image}}" >
+            <a href="{{site.baseurl}}{{page.url}}"><p class="ExP">{{page.title}}</p></a>
         </div>
     {% endfor %}
     
